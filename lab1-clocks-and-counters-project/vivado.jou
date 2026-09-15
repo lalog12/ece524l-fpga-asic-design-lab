@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Sep 14 16:45:09 2026
+# Process ID: 22540
+# Current directory: C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15828 C:\Users\eduar\Documents\GitHub\school\ece524l-fpga-asic-design-lab\lab-1-clocks-and-counters-project\lab-1-clocks-and-counters-project-feranmi.xpr
+# Log file: C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/vivado.log
+# Journal file: C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project\vivado.jou
+# Running On: TABLET-9UARK71U, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16983 MB
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.xprupdate_compile_order -fileset sources_1
+reset_run synth_1
+
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_simulation
+source tb_top_level.tcl
+close_sim
+launch_simulation
+source tb_top_level.tcl
+close_sim
+launch_simulation
+source tb_top_level.tcl
+open_run impl_1
+set_property -name {xsim.simulate.runtime} -value {10000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb_top_level.tcl
+close_sim
+launch_simulation
+source tb_top_level.tcl
+set_property -name {xsim.simulate.runtime} -value {2000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb_top_level.tcl
+close_sim
+launch_simulation
+source tb_top_level.tcl
+close_sim
+launch_simulation
+source tb_top_level.tcl
+save_wave_config {C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/tb_top_level_behav.wcfg}
+close_sim
