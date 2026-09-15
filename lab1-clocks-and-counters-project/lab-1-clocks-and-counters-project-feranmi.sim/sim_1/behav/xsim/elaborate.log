@@ -1,0 +1,44 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_level_behav xil_defaultlib.tb_top_level xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/top_level.v" Line 1. Module top_level_counter_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/clock_divider.v" Line 1. Module clock_divider doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/bit_counter.v" Line 1. Module bit_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/even_counter.v" Line 1. Module even_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/fibonacci_counter.v" Line 1. Module fibonacci_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/greycode_counter.v" Line 1. Module gray_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/johnson_counter.v" Line 1. Module johnson_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/odd_counter.v" Line 1. Module odd_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/ring_counter.v" Line 1. Module ring_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/BCD_Counter.v" Line 1. Module BCD_Counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/top_level.v" Line 1. Module top_level_counter_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/clock_divider.v" Line 1. Module clock_divider doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/bit_counter.v" Line 1. Module bit_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/even_counter.v" Line 1. Module even_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/fibonacci_counter.v" Line 1. Module fibonacci_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/greycode_counter.v" Line 1. Module gray_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/johnson_counter.v" Line 1. Module johnson_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/odd_counter.v" Line 1. Module odd_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/ring_counter.v" Line 1. Module ring_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab-1-clocks-and-counters-project/lab-1-clocks-and-counters-project-feranmi.srcs/sources_1/imports/ece524-lab1-code-feranmi/BCD_Counter.v" Line 1. Module BCD_Counter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.bit_counter
+Compiling module xil_defaultlib.even_counter
+Compiling module xil_defaultlib.fibonacci_counter
+Compiling module xil_defaultlib.gray_counter
+Compiling module xil_defaultlib.johnson_counter
+Compiling module xil_defaultlib.odd_counter
+Compiling module xil_defaultlib.ring_counter
+Compiling module xil_defaultlib.BCD_Counter
+Compiling module xil_defaultlib.top_level_counter_mux
+Compiling module xil_defaultlib.tb_top_level
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_level_behav

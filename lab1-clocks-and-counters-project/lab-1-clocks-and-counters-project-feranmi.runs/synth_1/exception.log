@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\eduar\Documents\GitHub\school\ece524l-fpga-asic-design-lab\lab-1-clocks-and-counters-project\lab-1-clocks-and-counters-project-feranmi.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied
