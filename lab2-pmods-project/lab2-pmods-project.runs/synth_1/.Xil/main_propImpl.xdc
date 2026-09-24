@@ -1,8 +1,6 @@
 set_property SRC_FILE_INFO {cfile:C:/Users/eduar/Documents/GitHub/school/ece524l-fpga-asic-design-lab/lab2-pmods-project/lab2-pmods-project.srcs/constrs_1/new/Zybo-Z7-Master.xdc rfile:../../../lab2-pmods-project.srcs/constrs_1/new/Zybo-Z7-Master.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN K17   IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L12P_T1_MRCC_35 Sch=clk
-set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN G15   IOSTANDARD LVCMOS33 } [get_ports { SwitchSelect }]; #IO_L19N_T3_VREF_35 Sch=sw[0]
 set_property src_info {type:XDC file:1 line:126 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN V15   IOSTANDARD LVCMOS33     } [get_ports { JC[0] }]; #IO_L10P_T1_34 Sch=jc_p[1]
 set_property src_info {type:XDC file:1 line:127 export:INPUT save:INPUT read:READ} [current_design]
@@ -34,4 +32,4 @@ set_property -dict { PACKAGE_PIN W16   IOSTANDARD LVCMOS33 } [get_ports { displa
 set_property src_info {type:XDC file:1 line:155 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN J15   IOSTANDARD LVCMOS33 } [get_ports { display_seg[6] }]; #IO_25_35 Sch=je[3]
 set_property src_info {type:XDC file:1 line:157 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN H15   IOSTANDARD LVCMOS33 } [get_ports { display_seg[7] }]; #IO_L19P_T3_35 Sch=je[4]
+set_property -dict { PACKAGE_PIN H15   IOSTANDARD LVCMOS33 } [get_ports { sevenSegSelect }]; #IO_L19P_T3_35 Sch=je[4]
